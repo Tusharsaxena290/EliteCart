@@ -5,6 +5,8 @@ config();
 //connecting to DB
 connectDataBase();
 const app=express();
+app.use(express.json())
+
 const port=process.env.PORT
 //console.log(process.env.PORT)
 
